@@ -70,19 +70,19 @@ If the input sizes do not match:
 ## Project Structure
 Wiener-Filter-Mips/
 ├── src/
-│   └── wiener_filter.asm      # Main MIPS implementation
+│ └── wiener_filter.asm # Main MIPS implementation
 │
 ├── data/
-│   ├── input.txt              # Noisy input signal
-│   ├── desired.txt            # Desired signal
-│   └── expected.txt           # Reference output (optional)
+│ ├── input.txt # Noisy input signal
+│ ├── desired.txt # Desired signal
+│ └── expected.txt # Reference output (optional)
 │
 ├── tools/
-│   └── Mars45.jar              # MARS simulator (optional)
+│ └── Mars45.jar # MARS simulator (optional)
 │
 ├── .gitignore
 ├── README.md
-└── output.txt                 # Generated output (optional)
+└── output.txt # Generated output (optional)
 
 ---
 
@@ -92,7 +92,3 @@ Wiener-Filter-Mips/
 3. Run the program.
 4. View results in the terminal and `output.txt`.
 
----
-
-## Keywords
-MIPS Assembly, Wiener Filter, MMSE, Signal Processing, Computer Architecture
