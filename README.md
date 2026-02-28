@@ -68,6 +68,7 @@ If the input sizes do not match:
 ---
 
 ## Project Structure
+```
 Wiener-Filter-Mips/
 ├── src/
 │ └── wiener_filter.asm # Main MIPS implementation
@@ -83,6 +84,7 @@ Wiener-Filter-Mips/
 ├── .gitignore
 ├── README.md
 └── output.txt # Generated output (optional)
+```
 
 ---
 
